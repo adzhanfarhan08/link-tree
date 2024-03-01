@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #191931;
+    background-color: #0F4C75;
     color: #e1e1f1;
     display: flex;
     flex-direction: column;
@@ -23,7 +23,7 @@ a {
 
 .icon i {
     font-size: 1.5rem;
-    color: #8787a3;
+    color: #DDE6ED;
 }
 
 .icon a:not(:last-child){
@@ -31,7 +31,7 @@ a {
 }
 
 ul {
-    width: 80%;
+    width: 100%;
     max-width: 40rem;
 
 }
@@ -48,11 +48,11 @@ link li:not(:last-child) {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #2d2d56;
+    background-color: #3282B8;
     padding: 1rem;
     border-radius: 20px;
     box-shadow: 10px 10px 10px black;
-    border: 2px solid #191931;
+    border: 2px solid #0F4C75;
 }
 
 .link-card:hover {
@@ -64,6 +64,7 @@ link li:not(:last-child) {
 }
 
 .copyright {
+    margin: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
